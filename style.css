@@ -359,7 +359,7 @@ header .header-content img {
         grid-template-columns: 1fr;
     }
     #home .header-content h1 {
-        font-size: 50px;
+        font-size: 20px;
     }
 
     header .header-content img {
@@ -376,6 +376,11 @@ header .header-content img {
     #Skills .Skills-Content .row,
     #services .row{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Mobile Responsive */
+    @media (max-width:528px) {
+        
     }
 
 
